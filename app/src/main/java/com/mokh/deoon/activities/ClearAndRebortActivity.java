@@ -206,14 +206,14 @@ public class ClearAndRebortActivity extends AppCompatActivity {
         count_of_debentures=db.getCountOfAllDebentures(customer_name);
         count_of_debites=db.getCountOfAllDebits(customer_name);
 
-        limitHightOfDeitePage(debite_items.size());
-        limitHightOfDebenturePage(debentures_items.size());
+//        limitHightOfDeitePage(debite_items.size());
+//        limitHightOfDebenturePage(debentures_items.size());
 
 
         pdfDocument = new PdfDocument();
         Paint paint = new Paint();
         Paint details_paint = new Paint();
-        PdfDocument.PageInfo mypageinfo1 = new PdfDocument.PageInfo.Builder(1200, debite_page_hight, 1).create();
+        PdfDocument.PageInfo mypageinfo1 = new PdfDocument.PageInfo.Builder(1200, debite_items.size()*230, 1).create();
         PdfDocument.Page mypage1 = pdfDocument.startPage(mypageinfo1);
         Canvas canvas = mypage1.getCanvas();
 
@@ -274,7 +274,7 @@ public class ClearAndRebortActivity extends AppCompatActivity {
         pdfDocument.finishPage(mypage1);
 
 
-        PdfDocument.PageInfo mypageinfo2 = new PdfDocument.PageInfo.Builder(1200, debenture_page_hight, 2).create();
+        PdfDocument.PageInfo mypageinfo2 = new PdfDocument.PageInfo.Builder(1200, debentures_items.size()*230, 2).create();
         PdfDocument.Page mypage2 = pdfDocument.startPage(mypageinfo2);
         Canvas canvas2 = mypage2.getCanvas();
 
