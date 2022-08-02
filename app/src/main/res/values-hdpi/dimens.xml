@@ -1,0 +1,135 @@
+<resources>
+
+
+    <!--start common dimens-->
+
+
+    <!--start search method and internal password question itens -->
+    <dimen name="search_methode_and_internal_password_question_text_view_layout_height">30dp</dimen>
+    <dimen name="search_methode_and_internal_password_question_text_view_layout_marginTop">5dp</dimen>
+    <dimen name="search_methode_and_internal_password_question_text_view_textSize">20sp</dimen>
+    <!--end search method and internal password question itens -->
+
+    <!--end common dimens-->
+
+
+    <!--start login activity dimens -->
+    <dimen name="login_activity_welcom_text_view_margin_top">20dp</dimen>
+    <dimen name="login_activity_welcom_text_view_text_size">20sp</dimen>
+    <dimen name="login_activity_title_text_view_margin_top">10dp</dimen>
+    <dimen name="login_activity_title_text_view_text_size">14sp</dimen>
+    <dimen name="login_activity_user_name_and_password_text_view_margin_bottom">5dp</dimen>
+    <dimen name="login_activity_user_name_and_password_text_view_margin_start">35dp</dimen>
+    <dimen name="login_activity_user_name_and_password_text_view_text_sizet">16sp</dimen>
+    <dimen name="login_activity_edit_text_style_layout_height">50dp</dimen>
+    <dimen name="login_activity_edit_text_style_margin_bottom">5dp</dimen>
+    <dimen name="login_activity_edit_text_style_margin_start">30dp</dimen>
+    <dimen name="login_activity_edit_text_style_margin_end">30dp</dimen>
+    <dimen name="login_activity_edit_text_style_padding_right">20dp</dimen>
+    <dimen name="login_activity_edit_text_style_text_size">18sp</dimen>
+    <dimen name="login_activity_forget_password_text_view_margin_top">10dp</dimen>
+    <dimen name="login_activity_forget_password_text_view_text_size">13sp</dimen>
+    <dimen name="login_activity_login_button_layout_width">140dp</dimen>
+    <dimen name="login_activity_login_button_layout_height">50dp</dimen>
+    <dimen name="login_activity_login_button_margin_top">30dp</dimen>
+    <dimen name="login_activity_login_button_text_size">18sp</dimen>
+    <dimen name="login_activity_free_button_layout_width">140dp</dimen>
+    <dimen name="login_activity_free_button_layout_height">50dp</dimen>
+    <dimen name="login_activity_free_button_margin_top">20dp</dimen>
+    <dimen name="login_activity_free_button_text_size">15sp</dimen>
+
+
+
+    <!--end login activity dimens -->
+
+
+    <!--start home activity dimens -->
+
+    <dimen name="home_activity_right_container_linear_layout_layout_height">120dp</dimen>
+    <dimen name="home_activity_right_container_linear_layout_layout_marginStart">20dp</dimen>
+    <dimen name="home_activity_right_container_linear_layout_layout_marginEnd">12.5dp</dimen>
+    <dimen name="home_activity_left_container_linear_layout_layout_height">120dp</dimen>
+    <dimen name="home_activity_left_container_linear_layout_layout_marginStart">12.5dp</dimen>
+    <dimen name="home_activity_left_container_linear_layout_layout_marginEnd">20dp</dimen>
+    <dimen name="home_activity_image_view_of_linear_layout_layout_width">60dp</dimen>
+    <dimen name="home_activity_image_view_of_linear_layout_layout_height">60dp</dimen>
+    <dimen name="home_activity_text_view_of_linear_layout_layout_height">30dp</dimen>
+    <dimen name="home_activity_text_view_of_linear_layout_layout_marginTop">10dp</dimen>
+    <dimen name="home_activity_text_view_of_linear_layout_textSize">20sp</dimen>
+
+    <!--end home activity dimens -->
+
+    <!--start brunch activities dimens -->
+
+    <dimen name="branshes_container_linear_layout_layout_marginTop">10dp</dimen>
+    <dimen name="branshes_container_linear_layout_padding">10dp</dimen>
+    <dimen name="branshes_buttons_layout_width">150dp</dimen>
+    <dimen name="branshes_buttons_layout_height">50dp</dimen>
+    <dimen name="branshes_buttons_textSize">17sp</dimen>
+    <!--end  brunch activities dimens -->
+
+    <!--start items of all customers and workers list view -->
+
+    <dimen name="all_customers_and_workers_list_view_layout_marginTop">10dp</dimen>
+    <dimen name="all_customers_and_workers_list_view_padding">10dp</dimen>
+
+    <dimen name="items_of_all_customers_and_workers_list_view_continer_linear_layout_layout_marginTop">10dp</dimen>
+    <dimen name="items_of_all_customers_and_workers_list_view_continer_linear_layout_padding">5dp</dimen>
+
+
+
+    <dimen name="items_of_all_customers_and_workers_list_view_name_of_customer_text_view_text_size">15sp</dimen>
+
+
+    <dimen name="items_of_all_customers_list_view_number_of_customer_text_view_text_sizq">12sp</dimen>
+
+    <dimen name="items_of_all_customer_edit_and_delete_icons_style_layout_width">20dp</dimen>
+    <dimen name="items_of_all_customer_edit_and_delete_icons_style_layout_height">20dp</dimen>
+    <dimen name="items_of_all_customer_edit_and_delete_icons_style_layout_marginEnd">10dp</dimen>
+
+
+    <!--end items of all customers list view -->
+
+    <!--start debite and debenture items -->
+
+
+    <dimen name="debite_and_debentures_item_container_linear_layout_padding">6dp</dimen>
+
+    <dimen name="debite_and_debentures_item_edit_image_button_layout_width">20dp</dimen>
+    <dimen name="debite_and_debentures_item_edit_image_button_layout_height">20dp</dimen>
+    <dimen name="debite_and_debentures_item_edit_image_button_layout_marginStart">10dp</dimen>
+    <dimen name="debite_and_debentures_item_edit_image_button_layout_marginTop">5dp</dimen>
+
+
+    <dimen name="debite_and_debentures_item_container_brunch_linear_layout_layout_marginTop">5dp</dimen>
+
+
+    <dimen name="debite_and_debentures_item_text_views_layout_marginTop">5dp</dimen>
+    <dimen name="debite_and_debentures_item_text_views_layout_marginBottom">3dp</dimen>
+    <dimen name="debite_and_debentures_item_text_views_textSize">12sp</dimen>
+
+    <dimen name="debite_and_debentures_item_custom_text_views_layout_marginStart">10dp</dimen>
+    <dimen name="debite_and_debentures_item_custom_text_views_layout_marginTop">5dp</dimen>
+    <dimen name="debite_and_debentures_item_custom_text_views_textSize">10sp</dimen>
+
+    <!--end debite and debenture items -->
+
+
+    <!--start about us styles dimens-->
+    <dimen name="about_us_activity_logo_style_layout_width">200dp</dimen>
+    <dimen name="about_us_activity_logo_style_layout_height">200dp</dimen>
+
+    <dimen name="about_us_activity_about_me_text_view_text_size">15sp</dimen>
+
+    <dimen name="about_us_activity_thanks_text_view_layout_marginTop">10dp</dimen>
+    <dimen name="about_us_activity_thanks_text_view_textSize">10sp</dimen>
+
+    <dimen name="about_us_activity_version_number_text_view_layout_marginTop">10dp</dimen>
+    <dimen name="about_us_activity_version_number_text_view_textSize">15sp</dimen>
+
+
+
+    <!--end about us styles dimens-->
+
+
+</resources>

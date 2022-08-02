@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/continer_black_color"
+    tools:context=".activities.AmountOfDebetesAndDebenturesForCustomerActivity">
+
+
+    <TextView
+        android:id="@+id/total_of_debites_text_view"
+        style="@style/amount_of_debetes_and_debentures_for_customer_text_view"
+        android:textColor="@color/red"
+        android:text="asdfasdf"
+        />
+
+    <TextView
+        android:id="@+id/total_of_debenetures_text_view"
+        style="@style/amount_of_debetes_and_debentures_for_customer_text_view"
+        android:textColor="@color/light_green"
+        />
+
+    <TextView
+        android:id="@+id/adider_text_view"
+        style="@style/amount_of_debetes_and_debentures_for_customer_text_view"
+        android:textColor="@color/golden"
+        />
+
+</LinearLayout>

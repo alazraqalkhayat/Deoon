@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Login_activity"
+    android:background="@drawable/background_3"
+
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <ImageView
+                android:id="@+id/login_activity_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/login_logo"
+            />
+
+            <TextView style="@style/login_activity_welcom_text_view" />
+
+
+            <TextView
+                style="@style/login_activity_title_text_view"
+
+
+                />
+
+
+            <TextView
+                style="@style/login_activity_user_name_and_password_text_view"
+                android:layout_marginTop="50dp"
+                android:text="@string/login_activity_user_name" />
+
+
+            <EditText
+                android:id="@+id/login_activity_user_name_edit_text"
+                style="@style/login_activity_edit_text_style"
+                android:background="@drawable/new_shape_of_edit_text_for_login"
+                android:inputType="text"
+
+                />
+
+            <TextView
+                style="@style/login_activity_user_name_and_password_text_view"
+                android:layout_marginTop="20dp"
+                android:text="@string/login_activity_password" />
+
+            <EditText
+                android:id="@+id/login_activity_password_edit_text"
+                style="@style/login_activity_edit_text_style"
+                android:background="@drawable/new_shape_of_edit_text_for_login"
+                android:gravity="end|center_vertical"
+                android:inputType="textPassword" />
+
+
+            <TextView
+                android:id="@+id/login_activity_forgate_password"
+                style="@style/login_activity_forget_password_text_view"
+                android:text="@string/login_activity_forgate_password"
+
+                />
+
+
+            <Button
+                android:id="@+id/login_in_button"
+                style="@style/login_activity_login_button"
+                android:background="@drawable/new_shape_of_buttons_for_login" />
+
+            <Button
+                android:id="@+id/login_activity_freebutton"
+                style="@style/login_activity_free_button"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/new_shape_of_buttons_for_login"
+
+                />
+
+
+            <TextView
+                android:id="@+id/login_activity_signup"
+                style="@style/login_activity_forget_password_text_view"
+                android:text="@string/login_activity_signup"
+
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

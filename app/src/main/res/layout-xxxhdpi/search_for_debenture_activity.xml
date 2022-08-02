@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.SearchForDebentureActivity"
+
+    >
+    <LinearLayout
+        style="@style/all_edit_text__linear_layout_style"
+
+        android:paddingLeft="0dp"
+
+        >
+
+        <TextView
+            style="@style/search_for_debites_and_debentures_search_methode_text_view"
+            android:text=" ــــــــ طريقه البحث ــــــــ"
+
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_for_debenture_activity_search_methode_spinner"
+            android:isScrollContainer="true"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/all_edit_text__linear_layout_style"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+
+
+            <ImageView
+                style="@style/all_edit_text_image_view_style"
+                android:src="@drawable/customers_svg"
+                android:layout_weight="7"
+                android:background="@drawable/new_shape_of_edit_text_image_view"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/search_for_debenture_activity_customer_namd_edit_text"
+                style="@style/all_auto_complite_text_view_style"
+                android:hint=" ـــــــــــــــــ إسم العميل ـــــــــــــــــ"
+                android:background="@drawable/new_shape_of_edit_text"
+                android:imeOptions="actionDone"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20sp"
+        >
+
+        <ImageView
+            style="@style/all_image_views_like_buttons"
+            android:background="@drawable/new_shape_of_buttons"
+            android:src="@drawable/search"
+            android:id="@+id/search_for_debenture_activity_search_image_view"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

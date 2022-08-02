@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AddNewCustomerActivity">
+
+
+    <LinearLayout
+        style="@style/all_edit_text__linear_layout_style"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <ImageView
+                style="@style/all_edit_text_image_view_style"
+                android:src="@drawable/customers_svg"
+                android:background="@drawable/new_shape_of_edit_text_image_view"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/add_new_customer_activity_customer_name_edit_text"
+                style="@style/all_auto_complite_text_view_style"
+                android:hint=" ـــــــــــــــ إسم العميل ـــــــــــــــــ"
+                android:background="@drawable/new_shape_of_edit_text"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/all_edit_text__linear_layout_style"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+
+
+
+            >
+
+
+            <ImageView
+                style="@style/all_edit_text_image_view_style"
+                android:src="@drawable/call_svg"
+                android:background="@drawable/new_shape_of_edit_text_image_view"
+                />
+
+            <EditText
+                android:id="@+id/add_new_customer_activity_phone_number_edit_text"
+                style="@style/all_edit_text_style"
+                android:hint=" ـــــــــــــ رقـم الهـاتــف ـــــــــــــــ"
+                android:background="@drawable/new_shape_of_edit_text"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20sp"
+        >
+
+
+
+        <ImageView
+
+            style="@style/all_image_views_like_buttons"
+            android:background="@drawable/new_shape_of_buttons"
+            android:src="@drawable/new_add_24"
+            android:id="@+id/add_new_customer_activity_add_image_view"
+            android:layout_marginEnd="20dp"
+
+
+            />
+
+        <ImageView
+            style="@style/all_image_views_like_buttons"
+            android:background="@drawable/new_shape_of_buttons"
+            android:src="@drawable/new_cancel_24"
+            android:id="@+id/add_new_customer_activity_cancel_image_view"
+            android:layout_marginStart="20dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

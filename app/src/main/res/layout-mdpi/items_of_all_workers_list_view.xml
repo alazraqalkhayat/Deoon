@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="5dp"
+>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/items_of_all_workers_list_view_linear"
+        style="@style/items_of_all_customers_and_workers_list_view_continer_linear_layout"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_of_items_of_all_customers_and_workers_linear_layout"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/items_of_all_workers_list_view_worker_name_text_view"
+                style="@style/items_of_all_customers_list_view_name_of_customer_text_view"
+                android:text="مؤيد"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="10"
+            >
+            <ImageView
+                style="@style/items_of_all_customer_edit_and_delete_icons_style"
+                android:src="@drawable/edit_svg"
+                android:tint="@color/white"
+                android:id="@+id/items_of_all_workers_edit_customer_details_image_view"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

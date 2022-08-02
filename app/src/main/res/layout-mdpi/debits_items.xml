@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/continer_black_color"
+    android:layout_marginTop="10dp"
+    android:padding="15dp"
+    >
+
+
+
+
+
+    <LinearLayout
+        style="@style/debite_and_debentures_item_container_linear_layout"
+        android:background="@drawable/shape_of_itens_linear_layout"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                style="@style/debite_and_debentures_item_edit_and_delete_image_button"
+                android:id="@+id/depits_items_edit_debite_details_image_button"
+
+                />
+            <ImageButton
+                style="@style/debite_and_debentures_item_edit_and_delete_image_button"
+                android:id="@+id/depits_items_delete_debite_image_button"
+                android:src="@drawable/delete_svg"
+                android:tint="@color/red"
+
+
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            style="@style/debite_and_debentures_item_container_brunch_linear_layout"
+            android:background="@drawable/shape_of_items_linear_layout_inside"
+
+            >
+
+            <TextView
+                style="@style/debite_and_debentures_item_text_views"
+                android:text="رقم الفاتوره : "
+
+                />
+
+            <TextView
+                android:id="@+id/depits_items_number_of_depite_text_view"
+                style="@style/debite_and_debentures_item_custom_text_views"
+                android:text="2929"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/debite_and_debentures_item_container_brunch_linear_layout"
+            android:background="@drawable/shape_of_items_linear_layout_inside"
+
+            >
+
+            <TextView
+                style="@style/debite_and_debentures_item_text_views"
+                android:layout_gravity="center"
+                android:text="اسم العميل  :  "
+                android:textColor="@color/white"
+
+                />
+
+            <TextView
+                android:id="@+id/depits_items_customer_name_text_view"
+                style="@style/debite_and_debentures_item_custom_text_views"
+                android:text="علي"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/debite_and_debentures_item_container_brunch_linear_layout"
+            android:background="@drawable/shape_of_items_linear_layout_inside"
+
+            >
+
+            <TextView
+                style="@style/debite_and_debentures_item_text_views"
+                android:text="وصف الفاتوره : "
+
+                />
+
+            <TextView
+                style="@style/debite_and_debentures_item_custom_text_views"
+                android:id="@+id/depits_items_description_of_depite_text_view"
+                android:text="زبادي"
+
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/debite_and_debentures_item_container_brunch_linear_layout"
+            android:background="@drawable/shape_of_items_linear_layout_inside"
+
+            >
+
+            <TextView
+                style="@style/debite_and_debentures_item_text_views"
+                android:text="المبلغ : "
+
+                />
+
+            <TextView
+                style="@style/debite_and_debentures_item_custom_text_views"
+                android:id="@+id/depits_items_deserved_amount_of_depite_text_view"
+                android:text="500"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/debite_and_debentures_item_container_brunch_linear_layout"
+            android:background="@drawable/shape_of_items_linear_layout_inside"
+
+            >
+
+            <TextView
+                style="@style/debite_and_debentures_item_text_views"
+                android:text="أخذت بيد : "
+
+                />
+
+            <TextView
+                style="@style/debite_and_debentures_item_custom_text_views"
+                android:id="@+id/depits_items_hand_of_depite_text_view"
+
+                android:text="اخو علي"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/debite_and_debentures_item_container_brunch_linear_layout"
+            android:background="@drawable/shape_of_items_linear_layout_inside"
+
+            >
+
+            <TextView
+                style="@style/debite_and_debentures_item_text_views"
+                android:text="إسم العامل : "
+
+                />
+
+            <TextView
+                style="@style/debite_and_debentures_item_custom_text_views"
+                android:id="@+id/depits_items_employee_of_depite_text_view"
+                android:text="الازرق"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/debite_and_debentures_item_container_brunch_linear_layout"
+            android:background="@drawable/shape_of_items_linear_layout_inside"
+
+            >
+
+            <TextView
+                style="@style/debite_and_debentures_item_text_views"
+                android:text="التاريخ : "
+
+                />
+
+            <TextView
+                style="@style/debite_and_debentures_item_custom_text_views"
+                android:id="@+id/depits_items_date_of_depite_text_view"
+                android:text="10-10-2021"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

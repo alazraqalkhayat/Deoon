@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/home_activity_employee_linear_layout"
+                        style="@style/home_activity_right_container_linear_layout"
+                        android:layout_weight="0"
+                        android:background="@drawable/new_shape_of_home_activity_linear_layout"
+                        android:layout_width="270dp"
+
+                        >
+
+                        <ImageView
+                            style="@style/home_activity_image_view_of_linear_layout"
+                            android:src="@drawable/customers_svg"
+                            android:paddingTop="10dp"
+
+                            />
+
+
+                        <TextView
+                            style="@style/home_activity_text_view_of_linear_layout"
+                            android:text="العملاء" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/home_activity_workers_linear_layout"
+                        style="@style/home_activity_left_container_linear_layout"
+                        android:layout_weight="0"
+                        android:background="@drawable/new_shape_of_home_activity_linear_layout"
+                        android:layout_width="250dp"
+
+                        >
+
+                        <ImageView
+                            style="@style/home_activity_image_view_of_linear_layout"
+                            android:src="@drawable/worker_svg"
+                            android:paddingTop="10dp"
+
+                            />
+
+
+                        <TextView
+                            style="@style/home_activity_text_view_of_linear_layout"
+                            android:text="العمال" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/home_activity_debits_linear_layout"
+                        style="@style/home_activity_right_container_linear_layout"
+                        android:layout_weight="0"
+                        android:background="@drawable/new_shape_of_home_activity_linear_layout"
+                        android:layout_width="270dp"
+                        >
+
+                        <ImageView
+                            style="@style/home_activity_image_view_of_linear_layout"
+                            android:src="@drawable/deptes_svg"
+                            android:paddingTop="10dp"
+
+                            />
+
+                        <TextView
+                            style="@style/home_activity_text_view_of_linear_layout"
+                            android:text="الديون" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/home_activity_debentures_linear_layout"
+                        style="@style/home_activity_left_container_linear_layout"
+                        android:layout_weight="0"
+                        android:background="@drawable/new_shape_of_home_activity_linear_layout"
+                        android:layout_width="250dp"
+
+                        >
+
+                        <ImageView
+                            style="@style/home_activity_image_view_of_linear_layout"
+                            android:src="@drawable/depentures_svg"
+                            android:paddingTop="10dp"
+
+                            />
+
+                        <TextView
+                            style="@style/home_activity_text_view_of_linear_layout"
+                            android:text="تسديد" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/home_activity_clear_and_rebort_linear_layout"
+                        style="@style/home_activity_right_container_linear_layout"
+                        android:layout_weight="0"
+                        android:background="@drawable/new_shape_of_home_activity_linear_layout"
+                        android:layout_width="270dp"
+                        >
+
+                        <ImageView
+                            style="@style/home_activity_image_view_of_linear_layout"
+                            android:src="@drawable/rebort_24"
+                            android:paddingTop="5dp"
+
+                            />
+
+                        <TextView
+                            style="@style/home_activity_text_view_of_linear_layout"
+                            android:text="تصفيه / كشف حساب"
+                            android:textSize="30dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/home_activity_data_linear_layout"
+                        style="@style/home_activity_left_container_linear_layout"
+                        android:layout_weight="0"
+                        android:background="@drawable/new_shape_of_home_activity_linear_layout"
+                        android:layout_width="250dp"
+
+                        >
+
+                        <ImageView
+                            style="@style/home_activity_image_view_of_linear_layout"
+                            android:src="@drawable/cloud_svg"
+                            android:paddingTop="10dp"
+
+                            />
+
+                        <TextView
+                            style="@style/home_activity_text_view_of_linear_layout"
+                            android:text="البيانات" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:id="@+id/home_activity_settings_linear_layout"
+                        style="@style/home_activity_right_container_linear_layout"
+                        android:layout_weight="0"
+                        android:background="@drawable/new_shape_of_home_activity_linear_layout"
+                        android:layout_width="270dp"
+                        >
+
+                        <ImageView
+                            style="@style/home_activity_image_view_of_linear_layout"
+                            android:src="@drawable/setting_svg"
+                            android:paddingTop="10dp"
+
+                            />
+
+                        <TextView
+                            style="@style/home_activity_text_view_of_linear_layout"
+                            android:text="الإعدادت" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/home_activity_others_linear_layoutw"
+                        style="@style/home_activity_left_container_linear_layout"
+                        android:layout_weight="0"
+                        android:background="@drawable/new_shape_of_home_activity_linear_layout"
+                        android:layout_width="250dp"
+
+                        >
+
+                        <ImageView
+                            style="@style/home_activity_image_view_of_linear_layout"
+                            android:src="@drawable/others_svg"
+                            android:paddingTop="15dp"
+
+                            />
+
+                        <TextView
+                            style="@style/home_activity_text_view_of_linear_layout"
+                            android:text="أخرى" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

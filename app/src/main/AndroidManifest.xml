@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mokh.deoon"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@mipmap/icon_of_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_of_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.EditDebentureDetailsActivity"
+            android:exported="true"
+            android:label="تعديل بيانات السند"
+
+        />
+        <activity
+            android:name=".activities.EditDebiteDetailsActivity"
+            android:exported="true"
+            android:label="تعديل بيانات الفاتوره"
+        />
+        <activity
+            android:name=".activities.AmountOfDebetesAndDebenturesForCustomerActivity"
+            android:exported="true"
+            android:theme="@style/activity_as_dialog" />
+        <activity
+            android:name=".activities.SearchForDebentureActivity"
+            android:exported="true"
+            android:label="بحث عن سند"
+        />
+        <activity
+            android:name=".activities.SearchForDebitsActivity"
+            android:exported="true"
+            android:label="بحث عن دين"
+        />
+        <activity
+            android:name=".activities.AllDebitesAndDebenturesActivity"
+            android:exported="true"
+
+        />
+        <activity
+            android:name=".activities.CheckPasswordActivity"
+            android:exported="true"
+            android:theme="@style/activity_as_dialog" />
+        <activity
+            android:name=".activities.AmountOfAllDebitsAndDebenturesActivity"
+            android:exported="true"
+            android:theme="@style/activity_as_dialog" />
+        <activity
+            android:name=".activities.AddNewDebenturesActivity"
+            android:exported="true"
+            android:label="سند جديد"
+        />
+        <activity
+            android:name=".activities.EditWorkerDetailsActivity"
+            android:exported="true"
+            android:label="تعديل معلومات العامل"
+        />
+        <activity
+            android:name=".activities.AllWorkersActivity"
+            android:exported="true"
+            android:label="جميع العمـال"
+        />
+        <activity
+            android:name=".activities.AddNewWorkerActivity"
+            android:exported="true"
+            android:label="إضافه عامل جديد"
+        />
+        <activity
+            android:name=".activities.EditCustomerDetailsActivity"
+            android:exported="true"
+            android:label="تعديل بيانات العميل "
+        />
+        <activity
+            android:name=".activities.SearchForCustomerActivity"
+            android:exported="true"
+            android:label="بحث عن عميل"
+        />
+        <activity
+            android:name=".activities.AddNewCustomerActivity"
+            android:exported="true"
+            android:label="عميل جديد"
+        />
+        <activity
+            android:name=".activities.AddNewDebiteActivity"
+            android:exported="true"
+            android:label="دين جديد"
+        />
+        <activity
+            android:name=".activities.SubscribeActivity"
+            android:exported="true"
+            android:label="إشتراك"
+            android:theme="@style/noaction2"
+        />
+        <activity
+            android:name=".activities.AboutUsActivity"
+            android:exported="true"
+            android:label="من نحـن"
+            android:theme="@style/noaction2"
+            android:screenOrientation="portrait"
+        />
+        <activity
+            android:name=".activities.OthersActivity"
+            android:exported="true"
+            android:label="أخرى"
+
+        />
+        <activity
+            android:name=".activities.DebenturesActivity"
+            android:exported="true"
+            android:label="السندات"
+        />
+        <activity
+            android:name=".activities.DebitsActivity"
+            android:exported="true"
+            android:label="الديون"
+        />
+        <activity
+            android:name=".activities.WorkersActivity"
+            android:exported="true"
+            android:label="العمـال"
+        />
+        <activity
+            android:name=".activities.CustomersActivity"
+            android:exported="true"
+            android:label="العمـلاء"
+        />
+        <activity
+            android:name=".activities.TestingActivity"
+            android:exported="true"
+
+            >
+
+
+        </activity>
+        <activity
+            android:name=".activities.DataActivity"
+            android:exported="true"
+            android:label="البيانـات"
+        />
+        <activity
+            android:name=".activities.ClearAndRebortActivity"
+            android:exported="true"
+            android:label="تصفيه / كشف حساب"
+        />
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:exported="true"
+            android:label="الإعـدادات"
+        />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:exported="true"
+            android:theme="@style/noaction2"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".activities.EditInternalPassActivity"
+            android:exported="true"
+            android:label="تعديل كلمة المرور"
+        />
+        <activity
+            android:name=".activities.CreateInternalPasswordActivity"
+            android:exported="true"
+            android:label="إنشاء كلمه مرور جديده"
+        />
+        <activity
+            android:name=".activities.AllCustomersActivity"
+            android:label="@string/header_menu_customers_all_customers" />
+        <activity
+            android:name=".activities.ProtictionQquestionaActivity"
+            android:exported="true"
+            android:label="استعاده كلمه المرور"
+            />
+        <activity
+            android:name=".activities.Login_activity"
+            android:theme="@style/noaction2"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">ديون</string>
+
+
+    <!--lables-->
+    <string name="debits_label">الديون</string>
+    <string name="tasded_label">تسديد</string>
+    <string name="customers_label">العملاء</string>
+    <string name="employee_label">العمال</string>
+
+
+    <!--toasty messages-->
+
+    <string name="login_activity_login_button">يلزم كتابه إسم المستخدم وكلمه المرور</string>
+    <string name="login_activity_login_button_error">إسم المستخدم أو كلمه المرور غير صحيحه</string>
+    <string name="forgate_password_message">يرجى التواصل مع مطوري التطبيق لإستعاده كلمه المرور الخاصه بك</string>
+
+    <string name="you_already_in_depits_activity">أنت بالفعل في نافذه الديون</string>
+    <string name="you_already_in_tsdede_activity">أنت بالفعل في نافذه التسديد</string>
+    <string name="you_already_in_customers_activity">أنت بالفعل في نافذه العملاء</string>
+    <string name="you_already_in_employee_activity">أنت بالفعل في نافذه العمال</string>
+
+
+    <string name="input_all_the_details">يجب إدخال جميع البيانات للإضافه</string>
+    <string name="all__edit_text_almost_empty">جميع الحقول بالفعل فارغه </string>
+    <string name="input_the_date_to_search">يجب إدخال التاريخ للبحث</string>
+
+
+    <string name="input_the_name_of_customer_to_add">يجب إدخال إسم العميل للإضافه</string>
+    <string name="input_the_name_of_customer_to_search">يجب إدخال إسم العميل للبحث</string>
+    <string name="name_of_customer_almost_empty">اسم العميل بالفعل فارغ </string>
+
+
+    <string name="input_the_name_of_employee_to_add">يجب إدخال إسم العامل للإضافه</string>
+    <string name="input_the_name_of_employee_to_search">يجب إدخال إسم العامل للبحث</string>
+    <string name="name_of_employee_almost_empty">اسم العامل بالفعل فارغ </string>
+
+
+    <string name="insert_debit_ok">تمت إضافه الدين بنجاح</string>
+    <string name="insert_debite_rong">عذرا.. لم يتم إضافه الدين</string>
+    <string name="check_customer_name">عذرا.. هذا العميل غير موجود</string>
+    <string name="check_employee_name">عذراً.. هذا العامل غير موجود</string>
+
+    <string name="insert_debenture_ok">تمت إضافه السند بنجاح</string>
+    <string name="insert_debenture_rong">عذرا.. لم يتم إضافه السند</string>
+
+
+    <string name="insert_employee_ok">تمت إضافه العامل بنجاح</string>
+    <string name="insert_employee_rong">عذرا.. لم يتم إضافه العامل..قد يكون الإسم المضاف موجوداً من قبل</string>
+
+    <string name="insert_customer_ok">تمت إضافه العميل بنجاح</string>
+    <string name="insert_customer_rong">عذرا.. لم يتم إضافه العميل..قد يكون الإسم المضاف موجوداً من قبل</string>
+    <string name="call_customer_rong">عذرا.. لا يوجد رقم هاتف للعميل في قاعده البيانات</string>
+
+
+    <string name="you_use_free_export">اشترك بالخدمه لكي تستطيع رفع البيانات </string>
+    <string name="you_use_free_import">اشترك بالخدمه لكي تستطيع إسترجاع البيانات </string>
+    <string name="you_use_free_tasfia">اشترك بالخدمه لكي تستطيع إستخدام هذه الخاصيه </string>
+
+    <string name="export_database_ok">تم رفع البيانات بنجاح</string>
+    <string name="export_database_wrong">لم يتم رفع البيانات تأكد من إتصالك بالإنترنت</string>
+
+    <string name="import_database_ok">تم إسترجاع البيانات بنجاح</string>
+    <string name="import_database_wrong">لم يتم إسترجاع البيانات تأكد من إتصالك بالإنترنت</string>
+
+    <string name="prese_again_to_exit">إنقر على زر العوده مره اخرى للخروج</string>
+
+    <string name="finish_service_message">لقد تم ايقاف خدمتك مؤقتاً يرجى تجديد الإشتراك</string>
+
+    <string name="sory_this_process_not_support">عذراً.. هذا الإجراء غير متوفر في الوقت الحالي </string>
+
+    <!--header menu items-->
+
+    <string name="header_menu_depits">الديون</string>
+    <string name="header_menu_tasded">تسديد</string>
+    <string name="header_menu_customers">العملاء</string>
+    <string name="header_menu_customers_add_search">إضافه/بحث</string>
+    <string name="header_menu_customers_all_customers">جميع العملاء</string>
+    <string name="header_menu_employee">العمال</string>
+    <string name="header_menu_tasfia">تصفيه/كشف حساب</string>
+    <string name="header_menu_export_data">البيانات</string>
+    <string name="header_menu_export_to_server">رفع البيانات الى السيرفر</string>
+    <string name="header_menu_import_data"> استرجاع البيانات من السيرفر</string>
+    <string name="header_menu_others">اخرى</string>
+    <string name="header_menu_about_developer">تواصل معنا</string>
+    <string name="header_menu_evaluate_app">قيم التطبيق</string>
+
+
+    <!--login activity welcome message-->
+    <string name="login_activity_welcome_message1">مرحباً بك في تطبيق \"ديون\"</string>
+    <string name="login_activity_welcome_message2">تطبيق ديون ... إحفظ مالك وأكسب رضاء عملائك</string>
+    <string name="login_to_contenue">سجل الدخول للمتابعه</string>
+    <string name="login_activity_user_name">إسم المستخدم</string>
+    <string name="login_activity_password">كلمه المرور</string>
+    <string name="login_activity_forgate_password">هل نسيت كلمه مرورك ؟ إنقر هنا..</string>
+    <string name="login_activity_free">ابدأ النسخه التجريبيه</string>
+
+    <string name="login_activity_signup">لا تمتلك حساب ؟ إشترك الآن..</string>
+    <string name="login_activity_user_name_hint">من فضلك أدخل إسم المستخدم هنا...</string>
+    <string name="login_activity_password_hint">من فضلك أدخل كلمه المرور هنا...</string>
+
+
+    <!--debits activity radio buttons-->
+    <string name="debits_activity_radio_buttons_new">دين جديد</string>
+    <string name="debits_activity_radio_buttons_search">بحث عن دين</string>
+    <string name="debits_activity_search_radio_buttons_all">كل الديون</string>
+    <string name="debits_activity_search_radio_buttons_total">الإجمالي</string>
+    <string name="debits_activity_search_radio_buttons_last">أخر دين</string>
+    <string name="debits_activity_search_radio_buttons_date">المجموع</string>
+
+
+    <!--debits activity new debit text views-->
+    <string name="debits_activity_search_like_text_view">بحث بحسب</string>
+    <string name="debits_activity_customer_name_text_view">إسم العميل</string>
+    <string name="debits_activity_description_text_view">الوصف</string>
+    <string name="debits_activity_deserved_amount_text_view">المبلغ</string>
+    <string name="debits_activity_hand_text_view">بيد</string>
+    <string name="debits_activity_employee_name_text_view">إسم العامل</string>
+    <string name="debits_activity_date_text_view">المجموع</string>
+    <string name="debits_activity_total_text_view">إجمالي الديون</string>
+    <string name="debits_activity_adider_text_view">المتبقي</string>
+
+
+    <!--tasded activity radio buttons-->
+    <string name="tasded_activity_radio_buttons_new">سند جديد</string>
+    <string name="tasded_activity_radio_buttons_search">بحث عن سند</string>
+    <string name="tasded_activity_search_radio_buttons_all">كل السندات</string>
+    <string name="tasded_activity_search_radio_buttons_total">الإجمالي</string>
+    <string name="tasded_activity_search_radio_buttons_last">أخر سند</string>
+    <string name="tasded_activity_search_radio_buttons_date">التاريخ</string>
+
+
+    <!--tasded activity new debit text views-->
+    <string name="tasded_activity_search_like_text_view">بحث بحسب</string>
+    <string name="tasded_activity_customer_name_text_view">إسم العميل</string>
+    <string name="tasded_activity_money_paied_text_view">المبلغ المدفوع</string>
+    <string name="tasded_activity_employee_name_text_view">اسم العامل</string>
+    <string name="tasded_activity_date_text_view">التاريخ</string>
+    <string name="tasded_activity_total_text_view">إجمالي المدفوعات</string>
+
+    <!--tasded activity wrong insert depneture because of the paied money more than deserved amount -->
+    <string name="insert_debenture_rong_title">خطأ في التسديد</string>
+    <string name="insert_debenture_rong_more_than_depites">عذرا..المبلغ المسدد اكبر من إجمالي الديون تأكد من إدخال المبلغ المسدد بالطريقه الصحيحه</string>
+    <string name="insert_debenture_rong_ok">حسناً</string>
+
+
+    <!--customers activity radio buttons-->
+    <string name="customers_activity_radio_buttons_new">إضافه عميل</string>
+    <string name="customers_activity_radio_buttons_search">بحث عن عميل</string>
+
+    <!--customers activity new debit text views-->
+    <string name="customers_activity_customer_name_text_view">إسم العميل</string>
+    <string name="customers_activity_phone_number_text_view">رقم الهاتف</string>
+
+
+    <!--customers activity new debit text views-->
+    <string name="employees_activity_employees_name_text_view">إسم العامل</string>
+    <string name="employees_activity_header_text_view">إضافه عامل جديد</string>
+
+    <string name="tasfia_activity_customer_name_text_view">إسم العميل</string>
+    <string name="tasfia_activity_header_text_view">تصفيه/ كشف حساب </string>
+
+
+    <!--debit items text views-->
+    <string name="number_of_debite">رقم الفاتوره  </string>
+    <string name="date_of_debite">التاريخ  </string>
+    <string name="description_of_debite">وصف الفاتوره  </string>
+    <string name="hand_of_debite">بيد  </string>
+    <string name="employee_of_debite">من  </string>
+    <string name="deserved_amount_of_depite">المبلغ  </string>
+
+
+    <!--debentures items text views-->
+    <string name="number_of_debentures">رقم السند  </string>
+    <string name="date_of_debentures">التاريخ  </string>
+    <string name="employee_of_debentures">المستلم  </string>
+    <string name="paied_money_of_debentures">المبلغ المدفوع  </string>
+
+
+    <!-- buttons-->
+    <string name="add_button">إضافه</string>
+    <string name="cancel_button">إلغاء</string>
+    <string name="search_button">بحث</string>
+    <string name="cull_button">إتصال</string>
+    <string name="login_in_button">تسجيل الدخول</string>
+    <string name="tasfia_in_button">تصفية</string>
+    <string name="send_taqrir_in_button">ارسال كشف حساب</string>
+
+
+    <!-- adding alert dialog-->
+    <string name="alert_title_add">تأكيد الإضافه</string>
+    <string name="alert_title_cancel">تأكيد الإلغاء</string>
+
+    <string name="alert_adding_message">هل أنت متأكد من جميع البيانات التي أدخلتها</string>
+    <string name="alert_adding_withe_customer_message">إضافه كـ عميل جديد مع إضافه الفاتوره</string>
+    <string name="alert_cancle_debite_message">هل أنت متأكد الغاء هذه الفاتوره</string>
+    <string name="alert_cancle_debenture_message">هل أنت متأكد الغاء هذه السند</string>
+    <string name="alert_add_customer_with_out_phone_number">أنت لم تدخل رقم هاتف للعميل لن يظهر أي رقم في حاله البحث عن هذا العميل ....هل تريد تأكيد الإضافه ؟</string>
+    <string name="alert_ok_button">تأكيد</string>
+    <string name="alert_cancel_button">إلغاء</string>
+    <string name="alert_continue_button">إسترجاع</string>
+
+
+    <string name="alert_title_tasfia">تأكيدالحذف</string>
+    <string name="alert_tasfia_message">عند تصفيه الحساب يتم حذف كل الديون مع كل السندات الخاصه بهذا العميل ...</string>
+
+    <!-- adding progress dialog-->
+    <string name="progress_dialog_export_title">رفع البيانات</string>
+    <string name="progress_dialog_export_message">جاري رفع البيانات</string>
+    <string name="progress_dialog_import_title">إسترجاع البيانات </string>
+    <string name="progress_dialog_import_message">جاري إسترجاع البيانات</string>
+
+    <!--about developer -->
+    <string name="about_developer_note">
+        تمت عمليه تصميم وتطوير هذا التطبيق بواسطه الأزرق الخياط و ابو تركي البعداني لتطوير تطبيقات الهواتف ، الكمبيوتر والويب .
+    </string>
+    <string name="about_developer_sign_up_thanks">شكر خاص للمهندس د.عبدالعزيز المقبلي</string>
+
+    <string name="about_developer_sign_up_message">للإشتراك بالخدمه يرجى التواصل مع احد مطوري التطبيق</string>
+    <string name="about_developer_comunicate_with_us">للتواصل معنا</string>
+    <string name="about_developer_azraq_name">الازرق الخياط</string>
+    <string name="about_developer_abuturki_name">ابو تركي البعداني</string>
+    <string name="about_developer_azraq_phone_number">+967 777 120 755</string>
+    <string name="about_developer_abuturki_phone_number">+967 771 907 045</string>
+    <string name="about_developer_click">إنقر على أحد الأرقام للإتصال</string>
+
+
+    <!--debits activity new debit text_views
+    <string name="debits_activity_customer_name_hint">إسم العميل</string>
+    <string name="debits_activity_description_hint">الوصف</string>
+    <string name="debits_activity_deserved_amount_hint">المبلغ</string>
+    <string name="debits_activity_hand_hint">بيد</string>
+    <string name="debits_activity_employee_name_hint">إسم العامل</string>
+
+    -->
+
+
+</resources>

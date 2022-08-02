@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AboutUsActivity"
+
+>
+
+
+    <ImageView
+        android:id="@+id/about_us_activity_logo_image_view"
+        style="@style/about_us_activity_logo_style" />
+
+    <TextView
+        android:id="@+id/about_us_activity_about_me_text_view"
+        style="@style/about_us_activity_about_me_text_view"
+        android:layout_below="@id/about_us_activity_logo_image_view"
+
+        />
+
+    <TextView
+        android:id="@+id/about_us_activity_about_doctor_text_view"
+        style="@style/about_us_activity_thanks_text_view"
+        android:layout_below="@id/about_us_activity_about_me_text_view"
+        android:text="شكر خاص للمهندس د. عبد العزيز المقبلي " />
+
+    <TextView
+        style="@style/about_us_activity_thanks_text_view"
+        android:layout_below="@id/about_us_activity_about_doctor_text_view"
+        android:text="شكر خاص للمصمم المبدع أحمد الشاحذي    772330340 967+ "
+
+        />
+        
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+    >
+
+        <LinearLayout
+            android:id="@+id/about_us_activity_phone_and_facebook_leniar_layour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/about_all_activity_phone_image_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/phone_24"
+                android:background="@drawable/new_shape_of_facebook_and_phonebuttons"
+                android:layout_marginEnd="30dp"
+                />
+
+            <ImageView
+                android:id="@+id/about_all_activity_facebook_image_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/_facebook_icon"
+                android:background="@drawable/new_shape_of_facebook_and_phonebuttons"
+                android:layout_marginStart="30dp"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

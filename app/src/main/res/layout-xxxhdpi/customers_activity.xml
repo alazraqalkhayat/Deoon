@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.CustomersActivity">
+
+
+    <LinearLayout
+        style="@style/branshes_container_linear_layout"
+        android:background="@color/continer_black_color">
+
+        <Button
+            android:id="@+id/emp_activity_add_emp_button"
+            style="@style/branshes_buttons"
+            android:background="@drawable/new_shape_of_brunch_buttons"
+            android:text="إضافه عميل"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/branshes_container_linear_layout"
+        android:background="@color/continer_black_color"
+
+        >
+
+        <Button
+            style="@style/branshes_buttons"
+            android:background="@drawable/new_shape_of_brunch_buttons"
+            android:text="البحث عن عميل"
+            android:id="@+id/emp_activity_search_for_emp_button"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/branshes_container_linear_layout"
+        android:background="@color/continer_black_color"
+
+        >
+
+        <Button
+            style="@style/branshes_buttons"
+            android:background="@drawable/new_shape_of_brunch_buttons"
+            android:text="جميع العملاء"
+            android:id="@+id/emp_activity_all_emps_button"
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

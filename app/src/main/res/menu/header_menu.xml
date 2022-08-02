@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/header_menu_debits"
+        android:title="@string/header_menu_depits"
+        />
+    <item
+        android:id="@+id/header_menu_tasdead"
+        android:title="@string/header_menu_tasded"
+        />
+
+    <item
+        android:title="@string/header_menu_customers"
+    >
+        <menu>
+            <item
+                android:id="@+id/header_menu_customers"
+                android:title="@string/header_menu_customers_add_search"
+                />
+
+            <item
+                android:id="@+id/header_menu_all_customerss"
+                android:title="@string/header_menu_customers_all_customers"
+                />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/header_menu_employee"
+        android:title="@string/header_menu_employee"
+        />
+
+    <item
+        android:id="@+id/header_menu_tasfia"
+        android:title="@string/header_menu_tasfia"
+    />
+
+
+    <item
+        android:id="@+id/header_menu_export_data"
+        android:title="@string/header_menu_export_data"
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/header_menu_export_data_to_server"
+                android:title="@string/header_menu_export_to_server"
+                />
+
+            <item
+                android:id="@+id/header_menu_import_data"
+                android:title="@string/header_menu_import_data"
+                />
+
+        </menu>
+    </item>
+
+
+
+    <item
+        android:id="@+id/header_menu_others"
+        android:title="@string/header_menu_others"
+        >
+    <menu>
+
+        <item
+            android:id="@+id/header_menu_about_developer"
+            android:title="@string/header_menu_about_developer"
+            />
+
+        <item
+            android:id="@+id/header_menu_evaluate_app"
+            android:title="@string/header_menu_evaluate_app"
+            />
+
+    </menu>
+
+    </item>
+
+
+</menu>

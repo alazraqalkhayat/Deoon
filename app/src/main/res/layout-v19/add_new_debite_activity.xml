@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AddNewDebiteActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    style="@style/all_edit_text__linear_layout_style"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+
+
+
+                        >
+
+
+                        <ImageView
+                            style="@style/all_edit_text_image_view_style"
+                            android:src="@drawable/customers_svg"
+                            android:background="@drawable/new_shape_of_edit_text_image_view"
+                            />
+
+                        <AutoCompleteTextView
+                            android:id="@+id/new_debits_activity_customer_name_edit_text"
+                            style="@style/all_auto_complite_text_view_style"
+                            android:hint=" ــــــــــــــ إسم العميــــل ــــــــــــــ"
+                            android:background="@drawable/new_shape_of_edit_text"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/all_edit_text__linear_layout_style"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+
+
+
+                        >
+
+
+                        <ImageView
+                            style="@style/all_edit_text_image_view_style"
+                            android:src="@drawable/description_svg"
+                            android:background="@drawable/new_shape_of_edit_text_image_view"
+                            />
+
+                        <EditText
+                            android:id="@+id/new_debits_activity_description_edit_text"
+                            style="@style/all_edit_text_style"
+                            android:hint=" ــــــــــــــ الوصــــــــــــــف ــــــــــــــ"
+                            android:background="@drawable/new_shape_of_edit_text"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/all_edit_text__linear_layout_style"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+
+
+
+                        >
+
+
+                        <ImageView
+                            style="@style/all_edit_text_image_view_style"
+                            android:src="@drawable/mony_svg"
+                            android:background="@drawable/new_shape_of_edit_text_image_view"
+                            />
+
+                        <EditText
+                            android:id="@+id/new_debits_activity_deserved_amount_edit_text"
+                            style="@style/all_edit_text_style"
+                            android:hint=" ــــــــــــــ المبلــــــــــــــغ ــــــــــــــ"
+                            android:background="@drawable/new_shape_of_edit_text"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/all_edit_text__linear_layout_style"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+
+
+
+                        >
+
+
+                        <ImageView
+                            style="@style/all_edit_text_image_view_style"
+                            android:src="@drawable/who_git_it_svg"
+                            android:background="@drawable/new_shape_of_edit_text_image_view"
+                            />
+
+                        <AutoCompleteTextView
+                            android:id="@+id/new_debits_activity_hand_edit_text"
+                            style="@style/all_auto_complite_text_view_style"
+                            android:hint=" ــــــــــــــ بيــــــــــــــد ــــــــــــــ"
+                            android:background="@drawable/new_shape_of_edit_text"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/all_edit_text__linear_layout_style"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+
+
+
+                        >
+
+
+                        <ImageView
+                            style="@style/all_edit_text_image_view_style"
+                            android:src="@drawable/worker_svg"
+                            android:background="@drawable/new_shape_of_edit_text_image_view"
+                            />
+
+                        <AutoCompleteTextView
+                            android:id="@+id/new_debits_activity_worker_name_edit_text"
+                            style="@style/all_auto_complite_text_view_style"
+                            android:hint=" ــــــــــــــ إسم العامــل ــــــــــــــ"
+                            android:background="@drawable/new_shape_of_edit_text"
+                            android:imeOptions="actionDone"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20sp"
+                    >
+
+
+
+                    <ImageView
+
+                        style="@style/all_image_views_like_buttons"
+                        android:background="@drawable/new_shape_of_buttons"
+                        android:src="@drawable/new_add_24"
+                        android:id="@+id/new_debits_activity_add_image_view"
+                        android:layout_marginEnd="20dp"
+
+
+                        />
+
+                    <ImageView
+                        style="@style/all_image_views_like_buttons"
+                        android:background="@drawable/new_shape_of_buttons"
+                        android:src="@drawable/new_cancel_24"
+                        android:id="@+id/new_debits_activity_cancel_image_view"
+                        android:layout_marginStart="20dp"
+
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

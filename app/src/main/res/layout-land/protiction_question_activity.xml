@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProtictionQquestionaActivity"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/protiction_question_activity_protiction_questions_spinner"
+            android:isScrollContainer="true"
+            />
+
+
+        <LinearLayout
+            style="@style/all_edit_text__linear_layout_style"
+            android:orientation="horizontal"
+            android:paddingRight="10dp"
+            >
+
+
+
+            <ImageView
+                style="@style/all_edit_text_image_view_style"
+                android:src="@drawable/question"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@drawable/new_shape_of_edit_text_image_view"
+                />
+
+            <EditText
+                style="@style/all_edit_text_style"
+                android:hint=" ـــــــــــــــــ أجـب عـن الســـؤال ـــــــــــــــــ"
+                android:background="@drawable/new_shape_of_edit_text"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:id="@+id/protiction_question_activity__answer_the_protiction_question_edit_text"
+
+                />
+        </LinearLayout>
+
+        <ImageView
+            style="@style/all_image_views_like_buttons"
+            android:background="@drawable/new_shape_of_buttons"
+            android:src="@drawable/true_icon"
+            android:id="@+id/protiction_question_activity_check_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

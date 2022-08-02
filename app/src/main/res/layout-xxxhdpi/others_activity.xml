@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.OthersActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    style="@style/branshes_container_linear_layout"
+                    android:background="@color/continer_black_color"
+                    >
+
+                    <Button
+                        style="@style/branshes_buttons"
+                        android:background="@drawable/new_shape_of_brunch_buttons"
+                        android:text="من نحن"
+                        android:id="@+id/others_activity_about_us_button"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/branshes_container_linear_layout"
+                    android:background="@color/continer_black_color"
+
+                    >
+
+                    <Button
+                        style="@style/branshes_buttons"
+                        android:background="@drawable/new_shape_of_brunch_buttons"
+                        android:text="إشتراك"
+                        android:id="@+id/others_activity_subscribe_button"
+
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/branshes_container_linear_layout"
+                    android:background="@color/continer_black_color"
+
+                    >
+
+                    <Button
+                        style="@style/branshes_buttons"
+                        android:background="@drawable/new_shape_of_brunch_buttons"
+                        android:text="مشاركه"
+                        android:id="@+id/others_activity_share_button"
+
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/branshes_container_linear_layout"
+                    android:background="@color/continer_black_color"
+
+                    >
+
+                    <Button
+                        style="@style/branshes_buttons"
+                        android:background="@drawable/new_shape_of_brunch_buttons"
+                        android:text="تقييم"
+                        android:id="@+id/others_activity_evaluate_button"
+
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/branshes_container_linear_layout"
+                    android:background="@color/continer_black_color"
+                    android:id="@+id/others_activity_login_button_linearLayout"
+
+                    >
+
+                    <Button
+                        style="@style/branshes_buttons"
+                        android:background="@drawable/new_shape_of_brunch_buttons"
+                        android:text="تسجيل الدخول"
+                        android:id="@+id/others_activity_login_button"
+
+
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/about_us_activity_version_number_text_view"
+        style="@style/about_us_activity_version_number_text_view"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="2.0.1"
+
+        />
+
+
+</RelativeLayout>

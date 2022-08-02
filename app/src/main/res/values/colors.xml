@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#32312f</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="darkgray_header">#4D4D4D</color>
+    <color name="darkgray_header_with_opacity">#954D4D4D</color>
+    <color name="white">#FFFEFE</color>
+
+
+    <!--background_color_of_card_views-->
+    <color name="g1">#F5F5F5</color>
+    <color name="g2">#B3B3B3</color>
+
+    <!--background_color_of_activities-->
+    <color name="back_ground_activity_gray">#F2EAE7</color>
+
+
+    <!--text views color -->
+    <color name="dark_black">#070707</color>
+    <color name="light_black">#1A1A1A</color>
+    <color name="light_black2">#242424</color>
+
+
+
+    <!--new version colors-->
+
+    <color name="all_edit_text_text_color">#514D4D</color>
+    <color name="all_edit_text_hint_color">#999e96</color>
+    <color name="golden">#ffaf00</color>
+
+    <color name="light_green">#4f8f38</color>
+
+    <color name="dark_green">#073E19</color>
+    <color name="login_edit_text_stroke">#999e96</color>
+    <color name="home_activity_text_view_text_color">#514D4D</color>
+
+    <color name="spiners_background_color">#575755</color>
+
+    <color name="continer_black_color">#232323</color>
+    <color name="card_view_container_background_color">#0F0C78</color>
+    <color name="card_view_background_color">#FFFFFF</color>
+    <color name="card_view_text_views_color">#0F0C78</color>
+    <color name="card_view_image_views_color">#FFFFFF</color>
+    <color name="tool_bar_background_color">#0F0C78</color>
+    <color name="tool_bar_text_title_color">#FFFFFF</color>
+    <color name="back_and_home_icons_color">#FFFFFF</color>
+    <color name="other_card_view_text_views_color">#FFFFFF</color>
+    <color name="activities_back_ground_color">#FFFFFF</color>
+    <color name="red">#E61212</color>
+    <color name="bebites_and_debenetures_linear_layout_insid_black_color">#32312f</color>
+
+
+
+
+
+</resources>

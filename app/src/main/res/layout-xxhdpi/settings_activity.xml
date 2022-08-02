@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.SettingsActivity">
+
+
+    <LinearLayout
+        style="@style/branshes_container_linear_layout"
+        android:background="@color/continer_black_color"
+        android:id="@+id/settings_activity_create_internal_password_linearlayout"
+        >
+
+        <Button
+            style="@style/branshes_buttons"
+            android:background="@drawable/new_shape_of_brunch_buttons"
+            android:text="إنشاء كلمة مرور"
+            android:id="@+id/settings_activity_create_internal_password_button"
+            android:textSize="17sp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/branshes_container_linear_layout"
+        android:background="@color/continer_black_color"
+        android:id="@+id/settings_activity_edit_internal_password_linear_layout"
+
+        >
+
+        <Button
+            style="@style/branshes_buttons"
+            android:background="@drawable/new_shape_of_brunch_buttons"
+            android:text="تعديل كلمة المرور"
+            android:id="@+id/settings_activity_edit_internal_password_button"
+            android:textSize="17sp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/branshes_container_linear_layout"
+        android:background="@color/continer_black_color"
+        android:id="@+id/settings_activity_delete_internal_password_linear_layout"
+
+        >
+
+        <Button
+            style="@style/branshes_buttons"
+            android:background="@drawable/new_shape_of_brunch_buttons"
+            android:text="حذف كلمة المرور"
+            android:id="@+id/settings_activity_delete_internal_password_button"
+            android:textSize="17sp"
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

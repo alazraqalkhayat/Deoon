@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "983073354512",
+    "firebase_url": "https://deoon-52921.firebaseio.com",
+    "project_id": "deoon-52921",
+    "storage_bucket": "deoon-52921.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983073354512:android:f2238ce3db37fc45606b95",
+        "android_client_info": {
+          "package_name": "com.mokh.deoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983073354512-886bup44994sp6aqgphuvu5ut5e8tofj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDeVJ1zqqVtXwVMIZfQEd-lCzjIhm99nU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983073354512-886bup44994sp6aqgphuvu5ut5e8tofj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

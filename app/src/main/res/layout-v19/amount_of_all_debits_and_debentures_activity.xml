@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.AmountOfAllDebitsAndDebenturesActivity"
+
+>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@color/continer_black_color"
+
+
+            >
+
+            <EditText
+                android:id="@+id/amout_of_all_debites_edit_text"
+                style="@style/all_edit_text_style"
+                android:background="@drawable/new_shape_of_edit_text_for_login"
+                android:enabled="false"
+
+                android:textColor="@color/golden"
+
+                />
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

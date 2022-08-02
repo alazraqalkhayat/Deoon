@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DebitsActivity">
+
+
+    <LinearLayout
+        style="@style/branshes_container_linear_layout"
+        android:background="@color/continer_black_color"
+        >
+
+        <Button
+            style="@style/branshes_buttons"
+            android:background="@drawable/new_shape_of_brunch_buttons"
+            android:text="دين جديد"
+            android:id="@+id/debits_activity_new_debite_button"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/branshes_container_linear_layout"
+        android:background="@color/continer_black_color"
+
+        >
+
+        <Button
+            style="@style/branshes_buttons"
+            android:background="@drawable/new_shape_of_brunch_buttons"
+            android:text="بحث عن دين"
+            android:id="@+id/debits_activity_search_for_debite_button"
+
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/branshes_container_linear_layout"
+        android:background="@color/continer_black_color"
+
+        >
+
+        <Button
+            style="@style/branshes_buttons"
+            android:background="@drawable/new_shape_of_brunch_buttons"
+            android:text="أجمالي كل الديون"
+            android:id="@+id/debits_activity_amount_of_all_debites_button"
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
